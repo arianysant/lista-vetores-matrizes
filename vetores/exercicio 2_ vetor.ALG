@@ -1,0 +1,28 @@
+
+algoritmo "exercicio 2"
+// Disciplina:
+// Professor: Anderson Vanin
+// Descrição: exercicio 2
+// Autor(a): Ariany Andrade
+// Data atual: 01/11/2022
+Var
+// Seção de Declarações das variáveis
+nums: vetor[1..15] de inteiro
+cont:inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+para cont de 1 ate 15 faca
+escreval("Digite o ",cont,"° número:  ")
+leia(nums[cont])
+
+fimpara
+  para cont de 1 ate 15 faca
+  se (nums[cont]>=0) entao
+escreval ("Os numeros positivos são: ", (nums[cont]))
+fimse
+  fimpara
+
+Fimalgoritmo
+
+//2. Escreva um algoritmo que leia um vetor com 15 posições de números inteiros. Em
+//seguida, escreva somente os números positivos que se encontram no vetor.
